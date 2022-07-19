@@ -6,6 +6,8 @@ on:
   pull_request:
     branches: [ patch-linux4.7 ]
 
+permissions: {}
+
 jobs:
 
   # NOTE(antoineco): This job only tests that the module builds on whatever
